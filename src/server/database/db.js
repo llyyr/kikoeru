@@ -57,7 +57,7 @@ const insertWorkMetadata = (work) => knex.transaction((trx) => trx.raw(
           .insert({
             va_id: work.vas[i].id,
             work_id: work.id,
-          })));
+          }).toString().replace('insert', 'insert or ignore')))
     }
 
     return Promise.all(promises)

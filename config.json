@@ -1,7 +1,7 @@
 {
-  "rootDir": "/mnt/Media/Voice",
+  "rootDir": "/mnt/d/kikoeru",
   "password": false,
   "scannerMaxRecursionDepth": 2,
-  "worksPerPage": 12,
-  "maxParallelism": 8
+  "worksPerPage": 50,
+  "maxParallelism": 20
 }
